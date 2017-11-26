@@ -1,0 +1,124 @@
+@charset "UTF-8";
+html, body, main {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.table-wrapper {
+  margin: 0;
+  display: inline-block;
+}
+
+#solution {
+  width: 60%;
+  margin: 0 auto 32px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+table tr th, table tr td {
+  border: #888 1px solid;
+  transition: all .2s, ease-in-out, 0;
+}
+
+table tr th {
+  background-color: #000;
+  color: #fff;
+}
+
+table tr td {
+  text-align: center;
+  color: #000;
+}
+
+#solution-table tr th, #solution-table tr td {
+  width: 100px;
+}
+
+.expNumber {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.pNumber {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#hiding {
+  position: fixed;
+  top: 84px;
+  right: 5%;
+  width: 35%;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+#color-code {
+  margin: 32px auto;
+}
+
+#color-code tr th, #color-code tr td {
+  width: 120px;
+  color: #000;
+}
+
+#BL {
+  background-color: #42A5F5;
+}
+
+#CY {
+  background-color: #18FFFF;
+}
+
+#TL {
+  background-color: #1DE9B6;
+}
+
+#GR {
+  background-color: #4CAF50;
+}
+
+#LG {
+  background-color: #B2FF59;
+}
+
+#YL {
+  background-color: #FFFF00;
+}
+
+#DO {
+  background-color: #FF5722;
+}
+
+#RD {
+  background-color: #E53935;
+}
+
+#hiding-table {
+  margin: 32px auto;
+}
+
+#hiding-table tr td {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+}
